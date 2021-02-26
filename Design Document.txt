@@ -1,0 +1,6 @@
+Plan
+The task that has been given is to create a choose your own adventure game using series of interconnected web pages. The final solution will use HTML, CSS and Java and use elements such as text, images, and sound to create and mould the webpages together.
+The style of story will be of a cyberpunk setting which was decided upon after coming across a nifty looping sound clip.
+First choice
+To create a game with small scale combat choices and health bar. The potential to have roguelike gameplay i.e., random elements.
+I hope this can be achieved by using one page for the combat which throws up a random scenario depended on a random number generator. If it is not possible to use a random number generator then I will instead attempt to use real time as a basis for random generator within java.
