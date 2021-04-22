@@ -1,0 +1,59 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>SET08101  - External  Stylesheets  </title>
+		<link  rel="stylesheet" href="external.css" type="text/css"/>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+	<body onload="startgame();">
+	
+		<header>
+		<h1 id='floor'>Floor 1 </h1>
+		</header>
+		<main>
+		<div class="grid-container">
+		
+		<div class="middlecolumn">
+		<p id="important">As you enter you see some stairs do you take the stairs or search the floor.</p>
+		
+		
+		<br>
+		<br>
+		<audio id='music'>
+  <source src="freesound.wav" type="audio/wav">
+  </audio>
+		</div>
+		
+		
+		<div class="leftcolumn">
+			<p id="health">Health 32/32</p>
+			<p id="strength">Strength 3</p>
+			<p id="potions" onClick="potions()"onmouseover="document.getElementById('tooltip').innerHTML = 'Restores 10 health';"></p>
+			<p id="lazer" onClick="lazer2()"onmouseover="document.getElementById('tooltip').innerHTML = 'Deals 10 damage';"></p>
+			<p id="grenade" onClick="grenade2()"onmouseover="document.getElementById('tooltip').innerHTML = 'Deals 20 damage';" ></p>		
+			<p id="tooltip"></p>		
+		</div>
+		
+		<div class="rightcolunm">
+			<p>Enemy</p>
+			<p id="enemyname"></p>
+			<p id="enemyhealth"></p>
+			<p id="enemystrength"></p>
+			<p id="enemy"></p>
+		</div>
+		
+		<div class="buttons">
+		<p><button type="button" id="progress" onClick="floorprogress()">Up floor</button></p>
+		<p><button type="button" id="search" onClick="encounter (search);">Check Floor</button></p>
+		</div>
+		
+		</div>
+		</main>
+		<footer>
+		
+	</body>
+</html>

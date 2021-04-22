@@ -1,0 +1,54 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 50% 25%;
+}
+
+.leftcolumn{
+	grid-column-start: 1;
+	font-family: 'Permanent Marker', cursive;
+	height: 50px;
+}
+
+.middlecolumn{
+	grid-column-start: 2;
+	font-family: 'Permanent Marker', cursive;
+	
+}
+
+.rightcolunm{
+	grid-column-start: 3;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.buttons{
+	grid-column-start: 2;
+	font-family: 'Permanent Marker', cursive;	
+}
+
+#button{
+	margin: auto;
+	width: 50%;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#important{
+	margin: auto;
+	width: 50%;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#floor{
+	margin: auto;
+	width: 50%;
+	font-family: 'Bungee Inline', cursive;
+}
+
+body{
+	background: linear-gradient(to bottom right, white, gray);
+}
+
+.content{
+	margin: auto;
+	width: 50%;
+	font-family: 'Bungee Inline', cursive;
